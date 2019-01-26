@@ -1,1 +1,32 @@
 公司即时通讯项目 其中所用到的消息类型
+
+
+
+	
+	public static final String LOGIN = "1";       //登陆
+	public static final String KEEPALIVE = "0";//心跳检测
+	public static final String LOGIN_SUCCESS = "2";       //登陆成功 (服务器返回给客户端)
+	public static final String HISTORYMSG = "4";//历史消息
+	public static final String SUCCESSMSG = "3";  //消息发送成功
+	public static final String REPEAT_LOGIN = "5";  //重复登陆
+	
+	public static final String LOGIN_OUT = "-1";  //下线
+	public static final String CANCELMSG = "-2";//消息撤回
+    public static final String FAILMSG = "-3";//消息发送不成功
+    public static final String FAIL_TOKEN_MSG = "-4";//token匹配错误
+    
+    
+    //文本消息类型
+    public static final String NORMALMSG = "10";       //文本消息
+    //多媒体消息类型
+    public static final String FILEMSG = "11";      //文件
+    public static final String PICMSG = "12";      //图片消息
+    public static final String VOICEMSG = "13";     //语音消息
+    public static final String VIDEOMSG = "14";     //视频消息
+    public static final String EMOJIEMSG = "15";     //表情
+    
+    
+    //系统类消息
+    public static final String MOBIL_SYS_MSG = "20";     //应用消息
+    public static final String MOBIL_PUSH_MSG = "21";     //push消息
+    public static final String WEB_SYS_MSG = "22";     //web系统消息
